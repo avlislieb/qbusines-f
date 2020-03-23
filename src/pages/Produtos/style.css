@@ -1,0 +1,17 @@
+
+.cardProdutos{
+    height: 340px;
+    margin-bottom: 15px;
+}
+
+.cardProdutos .cardProdutosHeader{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.card-body{
+    font-size: 14px;
+    padding:1em;
+    color: #000;
+}
