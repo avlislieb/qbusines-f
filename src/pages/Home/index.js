@@ -1,8 +1,7 @@
 import React from 'react';
 import { Container, Carousel, Col, Card, Button, Row } from 'react-bootstrap';
 
-import back from '../../assets/background.jpeg';
-
+import './style.css';
 export default function Home(){
     return (
         <> 
