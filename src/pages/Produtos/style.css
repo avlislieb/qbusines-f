@@ -1,17 +1,69 @@
 
+h2{
+    color: #fff;
+}
 .cardProdutos{
-    height: 340px;
+    width: 13rem;
+    margin: 0 auto;
     margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 1px 2px 6px rgba(255, 255, 255, 0.29);
+
+}
+.cardProdutos .card-body{
+    padding: 14px;
+}
+.cardProdutos .card-body .card-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.nav-link div {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: color .2s;
+}
+.nav-link div:hover {
+    color: #a7caff;
 }
 
 .cardProdutos .cardProdutosHeader{
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
+    height: 206px;
+
 }
 
+.cardProdutos .card-body .descricao {
+    height: 70px;
+}
+.cardProdutos .card-body .valor {
+    height: 10px;
+    font-weight: 300;
+
+}
 .card-body{
     font-size: 14px;
     padding:1em;
     color: #000;
+}
+
+.links-nav-bar div{
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.links-nav-bar div:hover{
+    color: #aeaeae;
+}
+
+.nav-lateral-categorias .navbar-toggler {
+    border: 2px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.nav-lateral-categorias .navbar-toggler span {
+    background-color: rgba(255, 255, 255, 0.8);
 }

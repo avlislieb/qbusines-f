@@ -16,9 +16,7 @@ function App() {
         
       </header>
       <main>
-        <div className="container">
-          <Routes />
-        </div>
+        <Routes />
       </main>
     </>
   );
