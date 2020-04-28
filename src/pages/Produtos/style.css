@@ -43,6 +43,9 @@ h2{
     font-weight: 300;
 
 }
+.cardProdutos .card-footer button{
+    font-size: 14px;
+}
 .card-body{
     font-size: 14px;
     padding:1em;
